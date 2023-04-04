@@ -1,0 +1,24 @@
+@media (max-width: 575px){
+    .menu ul{
+        width: 100%;
+        flex-direction: column;
+        position: absolute;
+        background-color: rgb(250, 210, 232);
+        color: white;
+        left: -100%;
+        top: 35px;
+        padding: 20px 0;
+        transition: all 0.5s;
+    }
+    .menu ul li a{
+        color: black;
+    }
+    .edit .menu ul{
+        left: 0;
+    }
+}
+@media(min-width: 576px){
+    button{
+        display: none;
+    }
+}
